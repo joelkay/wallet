@@ -72,6 +72,8 @@ public class Fortuna extends Random {
       this.pools = pools;
    }
 
+//cool guess this is the mining code?
+
    private byte[] randomData(int bytes) {
       lock.lock();
       try {
